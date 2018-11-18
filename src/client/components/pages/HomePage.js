@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Home = () => (
+const HomePage = () => (
   <div>
-    <h1>HOME</h1>
+    <h1>Home</h1>
     <button onClick={() => alert('HEY')}>CLICK ME</button>
   </div>
 );
 
-export default Home;
+export default { component: HomePage };
